@@ -1,0 +1,52 @@
+.carte-etudiant
+{
+    position:relative;
+    border: 10px solid pink;
+    background: url(mayssa.jpg) no-repeat;
+    background-position: top left;
+    margin:0 auto;
+    width:400px;
+    height:400px;
+    background-size:contain;
+
+}
+
+.sidebar
+{
+    float: right;
+    margin-top: -90px;
+    background-color: brown;
+    color:beige;
+}
+
+.carte-etudiant button
+{
+    position: absolute;
+    bottom:0;
+    right:0;
+    background-color: rgb(125, 62, 125);
+}
+
+.carte-etudiant button:hover
+{
+    background-color: purple;
+}
+
+.description
+{
+    margin-bottom:100px;
+}
+header
+{
+    text-align: center;
+}
+
+header, .description
+{
+    border:none;
+    background-color: aquamarine;
+    width:auto;
+    height:auto;
+    margin-left:10px;
+    margin-right:10px;
+}
