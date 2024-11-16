@@ -13,10 +13,13 @@
 
 .sidebar
 {
+    padding:2px 3px;
     float: right;
     margin-top: -90px;
     background-color: brown;
     color:beige;
+    border:2px solid black;
+    border-radius: 5%;
 }
 
 .carte-etudiant button
@@ -35,15 +38,18 @@
 .description
 {
     margin-bottom:100px;
+    padding:1px;
 }
 header
 {
     text-align: center;
+    padding:1px;
+    margin-bottom:5px;
 }
 
 header, .description
 {
-    border:none;
+    border-radius:5%;
     background-color: aquamarine;
     width:auto;
     height:auto;
